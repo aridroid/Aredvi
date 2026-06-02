@@ -1,11 +1,21 @@
-## Day 1
+## Day 0
 
 Completed:
-- Repository setup
-- ADR-001
+- GitHub repository created
+- Project structure created
+- Documentation structure created
+- README initialized
+- ADR process initialized
+- First commit pushed to GitHub
 
-Learned:
-- What ADR means
+Current Phase:
+Phase 0 - Foundation
 
-Next:
-- LangGraph State
+Current Task:
+Completed
+
+Next Task:
+Day 1 - Understanding Graphs and State
+
+Blockers:
+None
