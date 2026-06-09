@@ -64,15 +64,40 @@ Phase 1 - Core Runtime
 Current Task:
 Completed
 
+## Day 2
+
+Completed:
+
+* Built first workflow graph conceptually
+* Identified nodes and edges
+* Designed first workflow state
+* Simulated state transitions manually
+* Understood graph execution lifecycle
+* Understood graph runtime architecture
+
+Verification:
+
+* Can identify nodes in a workflow
+* Can identify edges in a workflow
+* Can define workflow state
+* Can explain state transitions
+* Can explain graph execution step-by-step
+* Can explain why state persistence is required
+
+Current Phase:
+Phase 1 - Core Runtime
+
+Current Task:
+Day 2 Completed
+
 Next Task:
-Day 2 - Build First Graph Without LangGraph
+Day 3 - Implement First Graph Runtime In Python
 
 Blockers:
 None
 
 Notes:
 
-* No LangGraph implementation started yet.
-* Focus remains on computer science fundamentals before framework usage.
-* Future implementations must follow Verification First Development (ADR-002).
-* Agent communication should continue to follow structured contracts (ADR-003).
+* Still no LangGraph usage.
+* Focus remains on runtime fundamentals.
+* Verification First Development continues.
