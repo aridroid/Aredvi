@@ -360,16 +360,59 @@ Phase 1 - Core Runtime
 
 # Current Progress
 
-Day 1 Completed
+Day 3 Completed
 
 ---
 
 # Current Task
 
-Day 2 - Build First Graph Without LangGraph
+Day 4 - Conditional Routing and Dynamic Execution
 
 ---
 
-# Next Task
+### Day 3 Completed ✅
 
-Day 3 - Implement First Graph Runtime In Python
+Completed:
+
+* Implemented first Graph class
+* Implemented first Node class
+* Implemented Runtime executor
+* Implemented workflow state model
+* Implemented state propagation
+* Implemented START → END workflow execution
+* Built first executable workflow
+* Executed workflow successfully
+* Verified state persistence across nodes
+
+Verification:
+
+* Nodes execute in sequence
+* State survives node execution
+* Runtime traverses graph correctly
+* Runtime reaches END state
+* Execution trace is observable
+* State propagation verified
+
+### Day 4 Planned Task
+
+Topics:
+
+* Conditional Routing
+* Dynamic Edge Selection
+* Decision Nodes
+* Branching Workflows
+* State-driven execution paths
+
+Deliverables:
+
+* Conditional execution engine
+* Branching workflow implementation
+* Decision node implementation
+
+Verification:
+
+* Runtime selects correct path
+* State drives routing decisions
+* Different states produce different execution paths
+* Workflow reaches correct END state
+* Execution path is observable
