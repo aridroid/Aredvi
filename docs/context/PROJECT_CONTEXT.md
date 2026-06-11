@@ -2,19 +2,23 @@
 
 ## Project Name
 
-AREDVI
+AREDVI (Aredvi Picks)
 
 ---
 
 ## Mission
 
-Build a production-grade Agentic AI SaaS platform while learning and implementing:
+Build Aredvi Picks, an AI-powered investment intelligence platform while learning and implementing:
 
 * Agentic AI Systems
 * LangGraph
 * FastAPI
 * PostgreSQL
+* pgvector
 * Redis
+* RAG (Retrieval Augmented Generation)
+* Vector Search
+* Financial Data Engineering
 * React
 * Docker
 * Kubernetes
@@ -27,14 +31,83 @@ Build a production-grade Agentic AI SaaS platform while learning and implementin
 
 ---
 
+## Product Vision
+
+Aredvi Picks is an AI-powered investment intelligence platform designed to help investors discover, analyze, monitor, and understand investment opportunities using transparent and explainable AI.
+
+Unlike traditional stock tip platforms, Aredvi focuses on data-driven investment intelligence where every recommendation is accompanied by clear reasoning, confidence scores, supporting signals, and risk analysis.
+
+Tagline:
+
+"No tips. Just Aredvi."
+
+---
+
+## Core Product Features
+
+### Stock Discovery & Screening
+
+* Automated Daily Stock Screening
+* Momentum Analysis Agent
+* Fundamental Growth Agent
+* News & Sentiment Agent
+* Signal Fusion Engine
+* Aredvi Picks Generator
+* Screening History
+
+### Investment Intelligence
+
+* Explainable AI Dashboard
+* Institutional Activity Intelligence
+* Bulk Deals Intelligence
+* Block Deals Intelligence
+* Market Footprint Tracking
+* Sector Intelligence
+* Sector Rotation Analysis
+
+### Portfolio & Monitoring
+
+* Watchlists
+* Alerts & Notifications
+* Portfolio Tracking
+* Portfolio Analytics
+* Risk Analyzer
+
+### Research & Analysis
+
+* AI Research Assistant
+* Company Research Pages
+* Research Report Generation
+* Historical Signal Tracking
+* Financial Data Insights
+
+### Strategy Evaluation
+
+* Backtesting Engine
+* Performance Tracking
+* Win Rate Analysis
+* Risk/Reward Analysis
+
+---
+
 ## Long-Term Goal
 
-Become capable of designing, building, deploying, operating, and scaling a production-grade AI platform at the level expected from:
+Become capable of designing, building, deploying, operating, and scaling a production-grade AI-powered investment intelligence platform at the level expected from:
 
 * Senior AI Engineer
 * Solutions Architect
 * Staff Software Engineer
 * CTO
+
+while deeply understanding:
+
+* Software Architecture
+* Agentic AI Systems
+* Financial Data Systems
+* RAG Architectures
+* Distributed Systems
+* Cloud Infrastructure
+* Production Operations
 
 ---
 
@@ -79,10 +152,26 @@ Minimize token consumption through:
 * Caching
 * Controlled agent loops
 * Efficient prompts
+* Retrieval before generation
 
 ---
 
-### 5. Production Before Demo
+### 5. Explainability First
+
+Investment recommendations must be explainable.
+
+Every signal, score, ranking, and recommendation should clearly communicate:
+
+* Why it was generated
+* Which signals contributed
+* Confidence level
+* Risk factors
+
+Avoid black-box decision making.
+
+---
+
+### 6. Production Before Demo
 
 Every design decision should be deployable to production.
 
@@ -114,6 +203,10 @@ Agent Communication Contracts
 
 * FastAPI
 
+### Agent Framework
+
+* LangGraph
+
 ### Database
 
 * PostgreSQL
@@ -123,9 +216,11 @@ Agent Communication Contracts
 
 * Redis
 
-### Agent Framework
+### AI & Retrieval
 
-* LangGraph
+* Embeddings
+* Vector Search
+* RAG Pipelines
 
 ### Infrastructure
 
@@ -164,35 +259,58 @@ Verification Layers:
 
 ## Current Project Status
 
-Phase 0 Complete
+Phase 1 - Core Runtime
 
-Repository Structure Complete
+Current Progress:
 
-Architecture Foundation Complete
+* Day 1 Completed
+* Day 2 Completed
+* Day 3 Completed
 
-Documentation Foundation Complete
+Completed:
 
-Verification Layer Defined
-
-Agent Contract Strategy Defined
+* Workflow Graph Fundamentals
+* Node Architecture
+* Edge Architecture
+* State Management
+* Runtime Execution Engine
+* State Propagation
+* First Executable Workflow
+* Runtime Verification
 
 ---
 
-## Next Phase
+## Current Phase
 
 Phase 1 - Core Runtime
 
-Topics:
+Learning Objectives:
 
 * Graphs
 * Nodes
 * Edges
 * State
 * State Transitions
+* Runtime Execution
+* Workflow Architecture
 * Agent Workflows
 * Why LangGraph Exists
 
 Before writing production LangGraph code.
+
+---
+
+## Next Task
+
+Day 4 - Conditional Routing and Dynamic Execution
+
+Topics:
+
+* Conditional Routing
+* Decision Nodes
+* Dynamic Edge Selection
+* Branching Workflows
+* State-Driven Execution Paths
 
 ---
 
